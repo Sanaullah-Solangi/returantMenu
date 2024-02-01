@@ -220,7 +220,7 @@ p {
   overflow: hidden;
 }
 
-.product-content .product-img img {
+.product-content .product-img :is(img, iframe) {
   width: 100%;
   height: 100%;
   transition: all 0.2s linear;
